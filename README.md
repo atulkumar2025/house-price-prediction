@@ -19,22 +19,18 @@ This project features a trained Random Forest regression model wrapped in a mode
 
 **Note:** The `house_model.pkl` file is not included in this repository due to GitHub file size limits. You must generate it locally before running the web app.
 
-**1. Clone the repository**
-```bash
+1. Clone the repository
 git clone [https://github.com/atulkumar2025/house-price-prediction.git](https://github.com/atulkumar2025/house-price-prediction.git)
 cd house-price-prediction
 2. Install dependencies
-
-Bash
 pip install -r requirements.txt
 3. Generate the Machine Learning Model
 Open model.ipynb in your preferred Jupyter environment (VS Code, JupyterLab, etc.) and run all the cells. This will download the dataset, train the Random Forest model, and generate the required house_model.pkl file in your directory.
-
 4. Run the Streamlit App
-
-Bash
 streamlit run app.py
-🧠 Model Architecture Overview
+
+## 🧠 Model Architecture Overview
+
 Algorithm: Random Forest Regressor
 
 Preprocessing: StandardScaler applied to normalize feature weights (e.g., balancing high-value Population data against lower-value Bedroom counts).
