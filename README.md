@@ -1,4 +1,4 @@
-# house-price-prediction
+# House Price Prediction
 An end-to-end Machine Learning web application that predicts California house prices based on demographic and property data. 
 
 This project features a trained Random Forest regression model wrapped in a modern, interactive "glass-morphism" web UI, complete with dynamic mapping and interactive sensitivity analysis.
